@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Media</title>
+    <style>
+        /* Impostazioni generali della pagina */
+        body {
+            background-color: black;
+            color: white; 
+            margin: 0;
+            padding: 15px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Impostazioni per gli schermi dei telefoni */
+        video, img {
+            max-width: 100%; 
+            height: auto; 
+            margin-bottom: 20px;
+        }
+
+        /* Impostazioni del testo */
+        h2 {
+            margin: 10px 0 25px 0;
+            font-size: 40px; /* <--- Questo è il comando per la grandezza del testo */
+        }
+    </style>
+</head>
+<body>
+
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Il tuo browser non supporta la visualizzazione dei video.
+    </video>
+
+    <h2>CODICE:</h2>
+
+    <img src="immagine.jpeg" alt="Immagine codice">
+
+</body>
+</html>
